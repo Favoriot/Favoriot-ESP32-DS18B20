@@ -4,8 +4,8 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-#define APIKEY  "******"
-#define DEVICE_DEV_ID "****@***"        //change id device
+#define APIKEY  "rw-apikey/acesstoken"
+#define DEVICE_DEV_ID "deviceDefault@favoriot"        //change id device
 #define ONE_WIRE_BUS 15         //DS18B20 data wire is connected to pin 15 on the NodeMCU
 
 OneWire oneWire(ONE_WIRE_BUS);
